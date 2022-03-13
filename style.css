@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 90px;
+    background: blueviolet;
+  }
+  .div1{
+      margin-right: 40px;
+  }
+  h1{
+      color: white;
+  }
+  
+  .emoji {
+    font-size: 10rem;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .closed,
+  .closed1,
+  .closed2 {
+    display: none;
+  }
+  
+  .open,
+  .open1,
+  .open2 {
+    display: none;
+  }
+  
+  .active{
+    display: block;
+  }
+  .actoveopen{
+      display: block;
+  }
